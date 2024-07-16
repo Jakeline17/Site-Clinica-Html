@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #d7d5d5;
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:  #ebe6e6;
 }
 .main {
     display: flex;
@@ -20,19 +20,52 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:rgb(240, 212, 193) ;
     padding: 10px 20px 0px;
 }
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+.menu ul li {
+    margin-bottom: 10px;
+}
+.menu ul li a {
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+.menu ul:last-of-type {
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffe5cb;
+    min-height: 150px;
+    font-size: 25px;
+}
+
 .content {
-    background-color: white;
+
+    background-color: #ebe6e6;
+    color:  #515151;
+    font-size: 20px;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffe5cb;
     min-height: 150px;
+    color:  #515151;
+    font-size: 15px;
 }
